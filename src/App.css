@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;800&display=swap);
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.back {
+  height: 640px;
+  background-image: url("./assets/Bitmap.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+
+@media (max-width: 1024px) {
+  .back {
+    width: 100%;
+    background-position: center;
+  }
+}
+
+.bt {
+  background-position: center;
+}
+.bg {
+  background-image: linear-gradient(
+    to bottom,
+
+    #ffff 0%,
+    #ffff 40%,
+    #f1f1f1 60%,
+    #f1f1f1 100%
+  );
+}
+.ba {
+  background-image: url("./assets/photo_2024-03-17_12-26-36.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+@media (max-width: 768px) {
+  .ba {
+    background-position: center;
+  }
+}
